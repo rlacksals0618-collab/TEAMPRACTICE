@@ -1,6 +1,11 @@
+### 🌐 사이트 주소: https://rlacksals0618-collab.github.io/TEAMPRACTICE/
+
 # TEAMPRACTICE — 우리 팀 취미 모음 사이트
 
+[![사이트 홈 화면](screenshots/home.png)](https://rlacksals0618-collab.github.io/TEAMPRACTICE/)
+
 팀원 4명이 각자 좋아하는 취미로 자기 페이지를 꾸미는 정적 웹사이트입니다.
+`main` 브랜치에 merge되면 1~2분 뒤 사이트에 반영됩니다.
 
 ## 팀원 소개
 
@@ -26,6 +31,7 @@ members/
   member2/ ...
   member3/ ...
   member4/ ...
+screenshots/            ← README용 사이트 화면 캡처
 ```
 
 **자기 폴더(`members/memberN/`)만 수정하면** 다른 팀원과 충돌이 나지 않아요.
@@ -57,8 +63,3 @@ members/
    GitHub에서 Pull Request를 만들면 확인 후 `main`에 merge됩니다.
 
 > 푸시 권한이 없다면 레포를 Fork해서 내 Fork에 올린 뒤 Pull Request를 보내주세요. (팀원2가 이 방식으로 올렸어요)
-
-## 사이트 주소
-
-GitHub Pages: https://rlacksals0618-collab.github.io/TEAMPRACTICE/
-(푸시 후 1~2분 뒤 반영됩니다)
