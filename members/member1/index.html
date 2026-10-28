@@ -25,41 +25,85 @@
   <!-- ===== 여기서부터 자유롭게 꾸며주세요 ===== -->
   <header class="profile">
     <div class="container">
-      <div class="profile-emoji">⚽</div>
+      <div class="profile-emoji">🤖</div>
       <p class="profile-name">팀원1</p>
-      <h1>나의 취미는 <span>축구</span></h1>
-      <p class="profile-intro">한 줄 자기소개를 적어주세요.</p>
+      <h1>나의 취미는 <span>AI 캐릭터 채팅</span></h1>
+      <p class="profile-intro">케이브덕, 젠잇에서 AI 캐릭터들과 이야기를 만들어 가는 걸 좋아해요.</p>
+      <div class="profile-tags">
+        <span>#케이브덕</span><span>#젠잇</span><span>#AI채팅</span><span>#롤플레이</span>
+      </div>
     </div>
   </header>
 
   <main class="container content">
+    <!-- 채팅창처럼 보이는 자기소개 -->
+    <section class="chat-window" aria-label="AI 캐릭터와의 대화 예시">
+      <div class="chat-header">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <strong>AI 캐릭터와 대화 중…</strong>
+      </div>
+      <div class="chat-body">
+        <div class="msg bot"><span class="avatar">🤖</span><p>안녕하세요! 오늘은 어떤 이야기를 해볼까요?</p></div>
+        <div class="msg me"><p>오늘은 판타지 세계관에서 모험을 떠나보고 싶어!</p></div>
+        <div class="msg bot"><span class="avatar">🤖</span><p>좋아요. 당신은 작은 마을의 견습 마법사입니다. 문 밖에서 누군가 급하게 문을 두드리는데…</p></div>
+        <div class="msg me"><p>문을 열어본다! 👀</p></div>
+        <div class="msg bot typing"><span class="avatar">🤖</span><p><i></i><i></i><i></i></p></div>
+      </div>
+    </section>
+
     <section class="block">
       <h2>이 취미를 좋아하는 이유</h2>
-      <p>취미를 시작하게 된 계기나, 왜 좋은지 적어주세요.</p>
+      <p>
+        정해진 줄거리를 보는 게 아니라, 내가 던지는 말 한마디에 따라 이야기가 매번 다르게 흘러가는 게 제일 재밌어요.
+        좋아하는 성격과 세계관을 가진 캐릭터와 대화하다 보면 한 편의 소설을 같이 쓰는 기분이 들고,
+        다른 사람들이 만든 캐릭터를 구경하는 것만으로도 아이디어가 많이 생겨요.
+        AI가 문맥을 이해하고 캐릭터를 유지하는 걸 보면서 AI 기술 자체에도 관심이 커졌어요.
+      </p>
+    </section>
+
+    <section class="block">
+      <h2>내가 즐겨 쓰는 사이트</h2>
+      <div class="site-cards">
+        <article class="site-card">
+          <div class="site-icon">🦆</div>
+          <h3>케이브덕 (Caveduck)</h3>
+          <p>다양한 AI 캐릭터와 대화하거나 직접 캐릭터를 만들어 볼 수 있는 AI 캐릭터 채팅 서비스. 웹과 앱 모두 지원해요.</p>
+        </article>
+        <article class="site-card">
+          <div class="site-icon">✨</div>
+          <h3>젠잇</h3>
+          <p>또 하나의 최애 AI 채팅 사이트. 케이브덕과는 또 다른 분위기의 캐릭터들을 만나는 재미가 있어요.</p>
+        </article>
+      </div>
     </section>
 
     <section class="block">
       <h2>나의 최애 TOP 3</h2>
       <ol class="top-list">
-        <li>첫 번째</li>
-        <li>두 번째</li>
-        <li>세 번째</li>
+        <li><strong>판타지 모험 롤플레이</strong> — 매번 결말이 달라지는 나만의 이야기</li>
+        <li><strong>캐릭터 직접 만들기</strong> — 성격, 말투, 세계관을 설정하는 재미</li>
+        <li><strong>인기 캐릭터 구경하기</strong> — 다른 제작자들의 기발한 설정 감상</li>
       </ol>
     </section>
 
     <section class="block">
       <h2>갤러리</h2>
-      <!-- images 폴더에 사진을 넣고 <img src="images/파일명.jpg" alt="설명"> 으로 바꿔주세요 -->
+      <!-- images 폴더에 스크린샷을 넣고 <img src="images/파일명.png" alt="설명"> 으로 바꿔주세요 -->
       <div class="gallery">
-        <div class="photo">사진 1</div>
-        <div class="photo">사진 2</div>
-        <div class="photo">사진 3</div>
+        <div class="photo">💬 대화 스크린샷</div>
+        <div class="photo">🧙 내가 만든 캐릭터</div>
+        <div class="photo">🗺️ 좋아하는 세계관</div>
       </div>
     </section>
 
     <section class="block">
       <h2>입문자에게 추천!</h2>
-      <p>이 취미를 처음 해보는 사람에게 하고 싶은 말을 적어주세요.</p>
+      <ul class="tips">
+        <li>처음엔 <strong>인기 캐릭터</strong>부터 대화해보면서 감을 잡아보세요.</li>
+        <li>캐릭터마다 분위기가 많이 다르니 <strong>소개와 설정을 먼저 읽고</strong> 고르는 걸 추천해요.</li>
+        <li>익숙해지면 <strong>나만의 캐릭터</strong>를 만들어보세요. 진짜 재미는 여기서부터!</li>
+        <li>개인정보는 대화에 적지 않기, 너무 오래 빠져들지 않게 <strong>시간 조절</strong>도 잊지 마세요.</li>
+      </ul>
     </section>
   </main>
   <!-- ===== 꾸미기 영역 끝 ===== -->
