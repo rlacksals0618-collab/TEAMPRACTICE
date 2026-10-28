@@ -141,10 +141,24 @@ body { background: var(--theme-bg); }
   gap: 12px;
 }
 .site-card {
+  display: block;
   padding: 20px;
   border-radius: 14px;
   background: linear-gradient(160deg, var(--theme-bg), #fff);
   border: 1px solid #e3e0ff;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.site-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(109, 93, 252, 0.15);
+}
+.site-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--theme-1);
 }
 .site-icon { font-size: 32px; }
 .site-card h3 { margin: 8px 0 6px; font-size: 17px; }
